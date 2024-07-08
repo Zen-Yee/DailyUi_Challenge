@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    border: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.image-container{
+    display:block;
+}
+
+.stones{
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 60% 0;
+}
