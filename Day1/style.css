@@ -62,11 +62,11 @@ h1{
     border: 10px;
     border-radius: 15px;
     background-color:#ffc440 ;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 /*img*/
-.stones{
+img{
     object-fit: cover;
     height:100%;
     width:100%;
@@ -85,13 +85,15 @@ h1{
         display: none;
     }
 
+    img{
+        display: none;
+    }
+
     .labeltext{
-        color: white;
         font-size:3vw;
     }
     
     h1{
-        color: white;
         font-size:8vw;
     }
 
