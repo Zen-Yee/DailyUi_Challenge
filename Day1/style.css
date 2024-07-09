@@ -49,10 +49,12 @@ body{
 
 .labeltext{
     color: white;
+    font-size:1em;
 }
 
 h1{
     color: white;
+    font-size:3em;
 }
 
 .textbox{
