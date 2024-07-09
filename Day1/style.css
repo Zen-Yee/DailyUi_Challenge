@@ -1,24 +1,72 @@
-*{
+body{
     margin:0;
-    padding: 0;
 }
 
 .container{
     width: 100%;
-    height: 800px;
-    border: 0px;
-    margin: 0px;
-    display: grid;
-    grid-template-columns:1fr 1fr;
-}
-
-.image-container{
-    display:block;
+    height: 100vh;
+    display:flex;
+    background-color:#3B2C93;
 }
 
 .stones{
-    height: 800px;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     object-position: 60% 0;
+    opacity: 60%;
+}
+
+.grid1{
+    padding:15vh;
+    text-align: center;
+}
+
+/*navigation bar*/
+
+.topnav{
+    background-color:#e2330A ;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    height:30px;
+    width:100px;
+    padding: auto;
+    margin: auto;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffc440;
+    color: black;
+  }
+
+/*form*/
+
+.labeltext{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.textbox{
+    border: 10px;
+    border-radius: 5px;
+}
+
+.button1{
+    width: 150px;
+    height: 30px;
+    border: 10px;
+    border-radius: 15px;
+    background-color:#ffc440 ;
+    margin-top: 20px;
 }
