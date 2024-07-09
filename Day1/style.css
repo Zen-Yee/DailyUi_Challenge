@@ -2,25 +2,6 @@ body{
     margin:0;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    display:flex;
-    background-color:#3B2C93;
-}
-
-.stones{
-    height:100vh;
-    width: 100%;
-    object-fit: cover;
-    opacity: 60%;
-}
-
-.grid1{
-    width: 50%;
-    text-align: center;
-}
-
 /*navigation bar*/
 
 .topnav{
@@ -45,16 +26,33 @@ body{
     color: black;
   }
 
+.container{
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    grid-template-columns:50% 50%;
+    background-color:#3B2C93;
+}
+
+.stones{
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.grid1{
+    text-align: center;
+}
+
 /*form*/
 
 .labeltext{
     color: white;
-    font-size:3vw;
 }
 
 h1{
     color: white;
-    font-size:8vw;
+    font-size:50px;
 }
 
 .textbox{
@@ -71,7 +69,12 @@ h1{
     margin-top: 20px;
 }
 
-@media only screen and (min-width: 480px){
+@media (max-width: 480px){
+
+    .container{
+        display: inline-block;
+    }
+
     .grid1{
         width:100%;
     }
@@ -80,5 +83,14 @@ h1{
         display: none;
     }
 
+    .labeltext{
+        color: white;
+        font-size:3vw;
+    }
+    
+    h1{
+        color: white;
+        font-size:8vw;
+    }
 
 }
