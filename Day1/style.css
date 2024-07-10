@@ -72,7 +72,7 @@ img{
     width:100%;
 }
 
-@media screen and (max-width: 812px) { 
+@media screen and (max-width: 900px) { 
 
     .container{
         display: inline-block;
