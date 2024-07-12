@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Check Out</title>
+  <title>Credit Card Checkout</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -19,7 +19,28 @@
     </div>
 
     <!--Payment Details-->
-    <div>
+    <div class="container">
+      <div></div>
+
+      <div class="cardInfo">
+       <form>
+          <label for="cardNumber">Card Number</label><br>
+          <input type="text" name="cardNumber" id="cardNumber" class="textField" required autofocus><br>
+          <br>
+          <label for="cardName">Card Holder</label><br>
+          <input type="text" name="cardName" id="cardName" class="textField" required><br>
+          <br>
+          <label for="expDate">Expiry Date</label><br>
+          <input type="text" name="expDate" id="expDate" class="textField" required><br>
+          <br>
+          <label for="cvv">CVV</label><br>
+          <input type="text" name="cvv" id="cvv" class="textField" required><br>
+          
+          <br>
+          <button type="submit">Proceed Payment</button>
+        
+        </form>
+      </div>
     </div>
 
 </body>
