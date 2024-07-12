@@ -72,7 +72,12 @@ img{
     width:100%;
 }
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 500px) { 
+		body{
+   			overflow:scroll;
+        height: 100%; 
+  	}
+
 
     .container{
         display: inline-block;
