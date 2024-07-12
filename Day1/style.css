@@ -2,7 +2,6 @@ body{
     margin:0;
     height: 100vh;
     width: 100%;
-    overflow: scroll;
 }
 
 /*navigation bar*/
@@ -27,15 +26,14 @@ body{
 .container{
     width: 100%;
     height:100%; 
-    background-color:#3B2C93;
     display:grid;
     grid-template-columns:1fr 1fr;
-    overflow: scroll;
 }
 
 /*grid1*/
 .grid1{
     text-align: center;
+    background-color:#3B2C93;
 }
 
 /*form*/
@@ -74,17 +72,12 @@ img{
     width:100%;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 600px) { 
 
-=======
 @media screen and (max-width: 500px) { 
-  
->>>>>>> d62a8f3f8761aafbfa678de563d5b77c679aca61
     .container{
-        display: inline-block;
+        display:inline-block;
     }
-    
+
     .grid1{
         width:100%;
     }
