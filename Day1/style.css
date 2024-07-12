@@ -2,6 +2,7 @@ body{
     margin:0;
     height: 100vh;
     width: 100%;
+    overflow: scroll;
 }
 
 /*navigation bar*/
@@ -73,8 +74,13 @@ img{
     width:100%;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) { 
 
+=======
+@media screen and (max-width: 500px) { 
+  
+>>>>>>> d62a8f3f8761aafbfa678de563d5b77c679aca61
     .container{
         display: inline-block;
     }
