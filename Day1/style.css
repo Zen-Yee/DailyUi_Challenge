@@ -73,11 +73,7 @@ img{
 }
 
 @media screen and (max-width: 500px) { 
-		body{
-   			overflow:scroll;
-  	}
-
-
+  
     .container{
         display: inline-block;
     }
