@@ -29,6 +29,7 @@ body{
     background-color:#3B2C93;
     display:grid;
     grid-template-columns:1fr 1fr;
+    overflow: scroll;
 }
 
 /*grid1*/
@@ -72,7 +73,7 @@ img{
     width:100%;
 }
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 600px) { 
 
     .container{
         display: inline-block;
