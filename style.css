@@ -3,6 +3,16 @@
     margin: 0%;
 }
 
+body{
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
 .hero{
     background-color:burlywood;
     height: 80px;
@@ -13,22 +23,27 @@
 }
 
 .container{
-    padding: 40px;
-    width: 392px;
-    height: 80vh;
+    flex: 1;
+    padding: 48px;
+    margin: auto;
+    width: 1176px;
     font-size:1em;
-    display:grid;
-    grid-template-columns: 4fr;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 
 .cards{
-    border-radius: 5px;
+    border-radius: 20px;
+    background-color:burlywood;
+    height: 200px;
 }
 
 footer{
     background-color:burlywood;
-    height: 100px;
+    height: 96px;
+    align-items: center;
+    justify-content: center;
 }
 
 footer>p{
