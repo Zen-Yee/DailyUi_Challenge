@@ -3,7 +3,7 @@
     margin: 0%;
 }
 
-.header{
+.hero{
     background-color:burlywood;
     height: 80px;
     width:100%;
@@ -14,9 +14,16 @@
 
 .container{
     padding: 40px;
-    width: 100%;
+    width: 392px;
     height: 80vh;
     font-size:1em;
+    display:grid;
+    grid-template-columns: 4fr;
+    gap: 24px;
+}
+
+.cards{
+    border-radius: 5px;
 }
 
 footer{
